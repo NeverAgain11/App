@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xYd-3K-ZQK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="x90-f4-6L1">
+            <objects>
+                <viewController storyboardIdentifier="HomePresenter" id="UWp-o3-tNr" customClass="HomePresenter" customModule="OtherTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3IC-AP-aGr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3e-D7-pHY">
+                                <rect key="frame" x="184" y="437.5" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UQ-4X-oNO">
+                                <rect key="frame" x="343" y="60" width="55" height="30"/>
+                                <state key="normal" title="Convert"/>
+                                <connections>
+                                    <action selector="goToConvert" destination="UWp-o3-tNr" eventType="touchUpInside" id="L00-cv-nau"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4UQ-4X-oNO" firstAttribute="top" secondItem="gu1-Zb-8LG" secondAttribute="top" constant="16" id="BUv-f9-JNy"/>
+                            <constraint firstItem="c3e-D7-pHY" firstAttribute="centerX" secondItem="3IC-AP-aGr" secondAttribute="centerX" id="MPE-eO-2Bg"/>
+                            <constraint firstItem="gu1-Zb-8LG" firstAttribute="trailing" secondItem="4UQ-4X-oNO" secondAttribute="trailing" constant="16" id="nbU-Oi-QgY"/>
+                            <constraint firstItem="c3e-D7-pHY" firstAttribute="centerY" secondItem="3IC-AP-aGr" secondAttribute="centerY" id="zrj-OJ-AmT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gu1-Zb-8LG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="1.square" catalog="system" selectedImage="1.square.fill" id="ygq-r7-CFe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRo-QT-XbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="127"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dC5-bK-9uN">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xYd-3K-ZQK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kxe-jz-pV8">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UWp-o3-tNr" kind="relationship" relationship="viewControllers" id="W5V-Br-7oQ"/>
+                        <segue destination="MSR-o7-DIs" kind="relationship" relationship="viewControllers" id="tYJ-rg-rjE"/>
+                        <segue destination="djf-YL-XKH" kind="relationship" relationship="viewControllers" id="UQB-rJ-gca"/>
+                        <segue destination="FZC-Yd-GeQ" kind="relationship" relationship="viewControllers" id="HXh-Ab-zUU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zya-pR-aKN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2193" y="-602"/>
+        </scene>
+        <!--Markets-->
+        <scene sceneID="0a5-au-Q7U">
+            <objects>
+                <viewController storyboardIdentifier="MarketsPresenter" id="MSR-o7-DIs" customClass="MarketsPresenter" customModule="OtherTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CY1-Ua-VTc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Markets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsG-We-Fyr">
+                                <rect key="frame" x="176" y="437.5" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QsG-We-Fyr" firstAttribute="centerY" secondItem="CY1-Ua-VTc" secondAttribute="centerY" id="KOo-jj-v1A"/>
+                            <constraint firstItem="QsG-We-Fyr" firstAttribute="centerX" secondItem="CY1-Ua-VTc" secondAttribute="centerX" id="nhY-si-Q50"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="APB-M9-ac6"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Markets" image="2.square" catalog="system" selectedImage="2.square.fill" id="paM-5C-VtQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zCj-Bp-jvJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="127"/>
+        </scene>
+        <!--Futures-->
+        <scene sceneID="QCA-wy-bnI">
+            <objects>
+                <viewController storyboardIdentifier="FuturesPresenter" id="djf-YL-XKH" customClass="FuturesPresenter" customModule="OtherTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vrQ-5g-K9H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Futures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu9-Qq-yjr">
+                                <rect key="frame" x="178" y="437.5" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gu9-Qq-yjr" firstAttribute="centerX" secondItem="vrQ-5g-K9H" secondAttribute="centerX" id="OMx-dk-l02"/>
+                            <constraint firstItem="gu9-Qq-yjr" firstAttribute="centerY" secondItem="vrQ-5g-K9H" secondAttribute="centerY" id="jdu-j1-XkW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rge-31-ROu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Futures" image="4.square" catalog="system" selectedImage="4.square.fill" id="pmg-YF-ymt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mQL-uP-Rhz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2493" y="127"/>
+        </scene>
+        <!--Wallets-->
+        <scene sceneID="b7j-Ue-waa">
+            <objects>
+                <viewController storyboardIdentifier="WalletsPresenter" id="FZC-Yd-GeQ" customClass="WalletsPresenter" customModule="OtherTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6lc-Ih-TBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGp-K9-NEy">
+                                <rect key="frame" x="179" y="437.5" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KGp-K9-NEy" firstAttribute="centerY" secondItem="6lc-Ih-TBJ" secondAttribute="centerY" id="DfR-5j-rCX"/>
+                            <constraint firstItem="KGp-K9-NEy" firstAttribute="centerX" secondItem="6lc-Ih-TBJ" secondAttribute="centerX" id="SNQ-wO-I9a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pht-mH-qFN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Wallets" image="5.square" catalog="system" selectedImage="5.square.fill" id="H3r-av-BZ5"/>
+                    <navigationItem key="navigationItem" id="2w0-Ku-UIW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTZ-Db-Iy6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3271" y="127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.square" catalog="system" width="128" height="114"/>
+        <image name="1.square.fill" catalog="system" width="128" height="114"/>
+        <image name="2.square" catalog="system" width="128" height="114"/>
+        <image name="2.square.fill" catalog="system" width="128" height="114"/>
+        <image name="4.square" catalog="system" width="128" height="114"/>
+        <image name="4.square.fill" catalog="system" width="128" height="114"/>
+        <image name="5.square" catalog="system" width="128" height="114"/>
+        <image name="5.square.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

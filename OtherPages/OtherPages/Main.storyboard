@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Spot-->
+        <scene sceneID="PnU-n5-01V">
+            <objects>
+                <viewController storyboardIdentifier="SpotPresenter" id="tUO-R6-upa" customClass="SpotPresenter" customModule="OtherPages" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yfS-Ay-x5R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyE-gq-uLD">
+                                <rect key="frame" x="189" y="437.5" width="36" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tyE-gq-uLD" firstAttribute="centerY" secondItem="yfS-Ay-x5R" secondAttribute="centerY" id="9Fb-Ao-jGa"/>
+                            <constraint firstItem="tyE-gq-uLD" firstAttribute="centerX" secondItem="yfS-Ay-x5R" secondAttribute="centerX" id="K2K-Cc-cHB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y6m-vP-xHY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Spot" id="mzM-nt-215"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KC-qn-fIQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="170.75892857142856"/>
+        </scene>
+        <!--Margin-->
+        <scene sceneID="84E-BO-Ea6">
+            <objects>
+                <viewController storyboardIdentifier="MarginPresenter" id="qKl-0z-tSy" customClass="MarginPresenter" customModule="OtherPages" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rlz-hc-DB3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAK-5K-3HJ">
+                                <rect key="frame" x="180.5" y="437.5" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bAK-5K-3HJ" firstAttribute="centerY" secondItem="Rlz-hc-DB3" secondAttribute="centerY" id="ACc-eD-s8H"/>
+                            <constraint firstItem="bAK-5K-3HJ" firstAttribute="centerX" secondItem="Rlz-hc-DB3" secondAttribute="centerX" id="FTa-zL-bQx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VMH-Zm-qXY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Margin" id="Doh-lL-fiu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4KY-ZL-VF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728.985507246377" y="170.75892857142856"/>
+        </scene>
+    </scenes>
+</document>

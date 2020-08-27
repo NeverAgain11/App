@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nud-gL-6lA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Convert View Controller-->
+        <scene sceneID="ixG-cI-sia">
+            <objects>
+                <viewController id="nud-gL-6lA" customClass="ConvertViewController" customModule="Convert" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eZ2-yh-hrw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEf-7I-M18">
+                                <rect key="frame" x="176.5" y="437.5" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIL-Qx-qtJ">
+                                <rect key="frame" x="348" y="60" width="50" height="30"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="goToHistory" destination="nud-gL-6lA" eventType="touchUpInside" id="qRM-Pr-ZQh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqt-Uf-moX">
+                                <rect key="frame" x="100" y="732" width="59" height="30"/>
+                                <state key="normal" title="Buy now"/>
+                                <connections>
+                                    <action selector="goToBuyCrypto" destination="nud-gL-6lA" eventType="touchUpInside" id="Jto-zx-uzH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Uqt-Uf-moX" firstAttribute="leading" secondItem="xl3-o6-ovB" secondAttribute="leading" constant="100" id="Caf-ww-XiM"/>
+                            <constraint firstItem="xl3-o6-ovB" firstAttribute="trailing" secondItem="NIL-Qx-qtJ" secondAttribute="trailing" constant="16" id="LEb-3b-5QS"/>
+                            <constraint firstItem="xl3-o6-ovB" firstAttribute="bottom" secondItem="Uqt-Uf-moX" secondAttribute="bottom" constant="100" id="Ntj-fY-PcG"/>
+                            <constraint firstItem="NIL-Qx-qtJ" firstAttribute="top" secondItem="xl3-o6-ovB" secondAttribute="top" constant="16" id="c3o-aO-KSA"/>
+                            <constraint firstItem="VEf-7I-M18" firstAttribute="centerY" secondItem="eZ2-yh-hrw" secondAttribute="centerY" id="gHA-bX-41Q"/>
+                            <constraint firstItem="VEf-7I-M18" firstAttribute="centerX" secondItem="eZ2-yh-hrw" secondAttribute="centerX" id="wvC-mj-a5V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xl3-o6-ovB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7a2-uK-3es" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="121"/>
+        </scene>
+    </scenes>
+</document>
