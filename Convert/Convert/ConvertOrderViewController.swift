@@ -13,4 +13,4 @@ class ConvertOrderViewController: UIViewController {
     }
 }
 
-extension ConvertOrderViewController: SBUnarchivable {}
+extension ConvertOrderViewController: IBInstantiatable {}

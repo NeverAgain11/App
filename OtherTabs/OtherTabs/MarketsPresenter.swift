@@ -1,3 +1,3 @@
 import UIExtension
 
-public class MarketsPresenter: Presenter, SBIdentifiedUnarchivable {}
+public class MarketsPresenter: Presenter, IBIdentifiedUnarchivable {}

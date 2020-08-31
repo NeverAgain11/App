@@ -5,7 +5,7 @@ public protocol HomePresenterCoordinator: AnyObject {
     func presenterGoToConvert(_ presenter: HomePresenter)
 }
 
-public class HomePresenter: Presenter, SBIdentifiedUnarchivable {
+public class HomePresenter: Presenter, IBIdentifiedUnarchivable {
 
     public weak var coordinator: HomePresenterCoordinator?
 

@@ -18,4 +18,4 @@ extension ConvertOrderTableViewController {
     }
 }
 
-extension ConvertOrderTableViewController: SBUnarchivable {}
+extension ConvertOrderTableViewController: IBInstantiatable {}

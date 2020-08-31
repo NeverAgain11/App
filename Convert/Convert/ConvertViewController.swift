@@ -26,4 +26,4 @@ extension ConvertViewController {
     }
 }
 
-extension ConvertViewController: SBUnarchivable {}
+extension ConvertViewController: IBInstantiatable {}

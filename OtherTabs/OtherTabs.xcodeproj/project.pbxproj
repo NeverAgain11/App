@@ -21,7 +21,6 @@
 		52A02F6624F79B5000F282A0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		52A02F6824F79BC900F282A0 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		52A02F6A24F79C6100F282A0 /* MarketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsPresenter.swift; sourceTree = "<group>"; };
-		52A02F6D24F79DE700F282A0 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A02F6F24F79EAE00F282A0 /* FuturesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesPresenter.swift; sourceTree = "<group>"; };
 		52A02F7124F79EDC00F282A0 /* WalletsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsPresenter.swift; sourceTree = "<group>"; };
 		5AE8EA1124FD49BC009326C8 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5AE8EA1124FD49BC009326C8 /* UIExtension.framework */,
-				52A02F6D24F79DE700F282A0 /* UIExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
