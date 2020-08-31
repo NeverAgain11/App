@@ -12,6 +12,7 @@
 		52A02F6B24F79C6100F282A0 /* MarketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F6A24F79C6100F282A0 /* MarketsPresenter.swift */; };
 		52A02F7024F79EAE00F282A0 /* FuturesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F6F24F79EAE00F282A0 /* FuturesPresenter.swift */; };
 		52A02F7224F79EDC00F282A0 /* WalletsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F7124F79EDC00F282A0 /* WalletsPresenter.swift */; };
+		5AE8EA1224FD49BC009326C8 /* UIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EA1124FD49BC009326C8 /* UIExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		52A02F6D24F79DE700F282A0 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A02F6F24F79EAE00F282A0 /* FuturesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesPresenter.swift; sourceTree = "<group>"; };
 		52A02F7124F79EDC00F282A0 /* WalletsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsPresenter.swift; sourceTree = "<group>"; };
+		5AE8EA1124FD49BC009326C8 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE8EA1224FD49BC009326C8 /* UIExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 		52A02F6C24F79DE700F282A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AE8EA1124FD49BC009326C8 /* UIExtension.framework */,
 				52A02F6D24F79DE700F282A0 /* UIExtension.framework */,
 			);
 			name = Frameworks;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52A02FF924F7BF0A00F282A0 /* FiatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02FF824F7BF0A00F282A0 /* FiatView.swift */; };
 		52A02FFB24F7BF1C00F282A0 /* FiatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02FFA24F7BF1C00F282A0 /* FiatPresenter.swift */; };
+		5AD7B00124FD4AB800A4D6B3 /* UIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		52A02FF124F7BEE700F282A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A02FF824F7BF0A00F282A0 /* FiatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatView.swift; sourceTree = "<group>"; };
 		52A02FFA24F7BF1C00F282A0 /* FiatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatPresenter.swift; sourceTree = "<group>"; };
+		5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7B00124FD4AB800A4D6B3 /* UIExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +37,7 @@
 			children = (
 				52A02FEF24F7BEE700F282A0 /* Fiat */,
 				52A02FEE24F7BEE700F282A0 /* Products */,
+				5AD7AFFF24FD4AB800A4D6B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +57,14 @@
 				52A02FF824F7BF0A00F282A0 /* FiatView.swift */,
 			);
 			path = Fiat;
+			sourceTree = "<group>";
+		};
+		5AD7AFFF24FD4AB800A4D6B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

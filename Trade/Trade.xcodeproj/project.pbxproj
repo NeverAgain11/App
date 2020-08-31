@@ -16,7 +16,19 @@
 		52A02FC024F7BBE900F282A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A02FBF24F7BBE900F282A0 /* Assets.xcassets */; };
 		52A02FC324F7BBE900F282A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A02FC224F7BBE900F282A0 /* Preview Assets.xcassets */; };
 		52A02FC624F7BBE900F282A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A02FC424F7BBE900F282A0 /* LaunchScreen.storyboard */; };
+		5AD7B00324FD4B5B00A4D6B3 /* UIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7B00224FD4B5B00A4D6B3 /* UIExtension.framework */; };
+		5AE8EA1724FD49E8009326C8 /* Fiat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EA1624FD49E8009326C8 /* Fiat.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD7AFFD24FD4A9000A4D6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A02F2624F798ED00F282A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A02F2E24F798ED00F282A0;
+			remoteInfo = Trade;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		52A02F2F24F798ED00F282A0 /* Trade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +44,8 @@
 		52A02FC224F7BBE900F282A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52A02FC524F7BBE900F282A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A02FC724F7BBE900F282A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD7B00224FD4B5B00A4D6B3 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE8EA1624FD49E8009326C8 /* Fiat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fiat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7B00324FD4B5B00A4D6B3 /* UIExtension.framework in Frameworks */,
+				5AE8EA1724FD49E8009326C8 /* Fiat.framework in Frameworks */,
 				52A02F9A24F7A3C100F282A0 /* OtherPages.framework in Frameworks */,
 				52A02F9824F7A3BB00F282A0 /* Convert.framework in Frameworks */,
 			);
@@ -86,6 +102,8 @@
 		52A02F9624F7A3BB00F282A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AD7B00224FD4B5B00A4D6B3 /* UIExtension.framework */,
+				5AE8EA1624FD49E8009326C8 /* Fiat.framework */,
 				52A02F9724F7A3BB00F282A0 /* Convert.framework */,
 				52A02F9924F7A3C100F282A0 /* OtherPages.framework */,
 			);
@@ -155,6 +173,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5AD7AFFE24FD4A9000A4D6B3 /* PBXTargetDependency */,
 			);
 			name = Trade.App;
 			productName = Trade.App;
@@ -239,6 +258,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD7AFFE24FD4A9000A4D6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A02F2E24F798ED00F282A0 /* Trade */;
+			targetProxy = 5AD7AFFD24FD4A9000A4D6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52A02FC424F7BBE900F282A0 /* LaunchScreen.storyboard */ = {

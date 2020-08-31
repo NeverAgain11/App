@@ -31,6 +31,11 @@ extension SBUnarchivable {
 extension SBIdentifiedUnarchivable {
 
     @inlinable
+    public static var sbName: String {
+        return "Main"
+    }
+
+    @inlinable
     public static var sbIdentifier: String {
         return "\(Self.self)"
     }
