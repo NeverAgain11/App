@@ -1,3 +1,3 @@
 import UIExtension
 
-public class WalletsPresenter: Presenter, SBIdentifiedUnarchivable {}
+public class WalletsPresenter: Presenter, IBIdentifiedInstantiatable {}

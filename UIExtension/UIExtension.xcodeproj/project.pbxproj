@@ -10,6 +10,7 @@
 		52A02F1B24F78C6700F282A0 /* Presenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F1A24F78C6700F282A0 /* Presenters.swift */; };
 		52A02F1D24F78CF900F282A0 /* UIViewController+Embedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F1C24F78CF900F282A0 /* UIViewController+Embedding.swift */; };
 		52A02F1F24F7913E00F282A0 /* IBInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02F1E24F7913E00F282A0 /* IBInstantiatable.swift */; };
+		5A75479524FD98FF0005860D /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75479424FD98FF0005860D /* Instantiatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		52A02F1A24F78C6700F282A0 /* Presenters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenters.swift; sourceTree = "<group>"; };
 		52A02F1C24F78CF900F282A0 /* UIViewController+Embedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Embedding.swift"; sourceTree = "<group>"; };
 		52A02F1E24F7913E00F282A0 /* IBInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBInstantiatable.swift; sourceTree = "<group>"; };
+		5A75479424FD98FF0005860D /* Instantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				52A02F1A24F78C6700F282A0 /* Presenters.swift */,
+				5A75479424FD98FF0005860D /* Instantiatable.swift */,
 				52A02F1E24F7913E00F282A0 /* IBInstantiatable.swift */,
 				52A02F1C24F78CF900F282A0 /* UIViewController+Embedding.swift */,
 				52A02F1324F78C3F00F282A0 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				52A02F1F24F7913E00F282A0 /* IBInstantiatable.swift in Sources */,
 				52A02F1D24F78CF900F282A0 /* UIViewController+Embedding.swift in Sources */,
+				5A75479524FD98FF0005860D /* Instantiatable.swift in Sources */,
 				52A02F1B24F78C6700F282A0 /* Presenters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

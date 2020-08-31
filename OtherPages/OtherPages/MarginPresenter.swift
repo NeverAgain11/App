@@ -1,3 +1,3 @@
 import UIExtension
 
-public class MarginPresenter: Presenter, IBIdentifiedUnarchivable {}
+public class MarginPresenter: Presenter, IBIdentifiedInstantiatable {}

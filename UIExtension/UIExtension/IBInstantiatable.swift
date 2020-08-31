@@ -1,6 +1,6 @@
 import UIKit
 
-public protocol IBInstantiatable: UIViewController {
+public protocol IBInstantiatable: UIViewController, Instantiatable {
 
     static var ibName: String { get }
 }
@@ -28,20 +28,20 @@ extension IBInstantiatable {
     }
 }
 
-extension IBIdentifiedInstantiatable {
+public extension IBIdentifiedInstantiatable {
 
     @inlinable
-    public static var ibName: String {
+    static var ibName: String {
         return "Main"
     }
 
     @inlinable
-    public static var ibIdentifier: String {
+    static var ibIdentifier: String {
         return "\(Self.self)"
     }
 
     @inlinable
-    public static func instantiate() -> Self {
+    static func instantiate() -> Self {
         return sb.instantiateViewController(withIdentifier: ibIdentifier) as! Self
     }
 }

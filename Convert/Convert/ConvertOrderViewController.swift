@@ -1,7 +1,7 @@
 import UIKit
 import UIExtension
 
-class ConvertOrderViewController: UIViewController {
+final class ConvertOrderViewController: UIViewController {
 
     var order = ""
     
@@ -14,3 +14,13 @@ class ConvertOrderViewController: UIViewController {
 }
 
 extension ConvertOrderViewController: IBInstantiatable {}
+
+import SwiftUI
+
+extension ConvertOrderViewController: UIViewControllerRepresentable {}
+
+struct ConvertOrderViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ConvertOrderViewController.instantiate()
+    }
+}

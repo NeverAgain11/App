@@ -6,7 +6,7 @@ protocol ConvertOrderTableViewControllerCoordinator: AnyObject {
     func viewController(_ viewController: ConvertOrderTableViewController, didSelect order: String)
 }
 
-class ConvertOrderTableViewController: UITableViewController {
+final class ConvertOrderTableViewController: UITableViewController {
 
     weak var coordinator: ConvertOrderTableViewControllerCoordinator?
 }
@@ -19,3 +19,13 @@ extension ConvertOrderTableViewController {
 }
 
 extension ConvertOrderTableViewController: IBInstantiatable {}
+
+import SwiftUI
+
+extension ConvertOrderTableViewController: UIViewControllerRepresentable {}
+
+struct ConvertOrderTableViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ConvertOrderTableViewController.instantiate()
+    }
+}

@@ -8,7 +8,7 @@ protocol ConvertViewControllerCoordinator: AnyObject {
     func viewControllerGoToBuyCrypto(_ viewController: ConvertViewController)
 }
 
-class ConvertViewController: UIViewController {
+final class ConvertViewController: UIViewController {
 
     weak var coordinator: ConvertViewControllerCoordinator?
 }
@@ -27,3 +27,13 @@ extension ConvertViewController {
 }
 
 extension ConvertViewController: IBInstantiatable {}
+
+import SwiftUI
+
+extension ConvertViewController: UIViewControllerRepresentable {}
+
+struct ConvertViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ConvertViewController.instantiate()
+    }
+}

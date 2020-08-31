@@ -1,16 +1,16 @@
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
     @inlinable
-    public func embed(in parent: UIViewController) {
+    func embed(in parent: UIViewController) {
         parent.addChild(self)
         parent.view.addSubview(view)
         didMove(toParent: parent)
     }
 
     @inlinable
-    public func unembed() {
+    func unembed() {
         willMove(toParent: nil)
         view.removeFromSuperview()
         removeFromParent()

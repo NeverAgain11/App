@@ -1,3 +1,3 @@
 import UIExtension
 
-public class FuturesPresenter: Presenter, IBIdentifiedUnarchivable {}
+public class FuturesPresenter: Presenter, IBIdentifiedInstantiatable {}

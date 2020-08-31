@@ -1,3 +1,3 @@
 import UIExtension
 
-public class SpotPresenter: Presenter, IBIdentifiedUnarchivable {}
+public class SpotPresenter: Presenter, IBIdentifiedInstantiatable {}
