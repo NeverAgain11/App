@@ -30,4 +30,4 @@ content 担任 View，那么 UIView 呢？就像 UIView 和 CALayer 组成的低
 
 只需要加上 AppDelegate 和 SceneDelegate 一个子树就可以作为一个 App 独立运行！想象一下这样的开发流程：先在 Convert Project 中开发，通过 Convert.App 调试，完成后再接入 Trade.App，最后接入 App。一个 UI 改动再也不需要全局编译就可以看到效果！清晰的边界意味着易于 Mock，易于调试和测试。
 
-哪怕还没有实际运用只是想想这棵树能做的事情就有很多，比如，它的限制很少，最大程度地保留了可能性，Fiat Project 就是用 SwiftUI 实现的；比如，Presenter 的生命周期灵活多样，用来做 Cache 非常合适！消除单例也不难；再比如，它允许分层处理 Networking 数据。还有我想到但没想明白的：DeepLink，埋点。
+哪怕还没有实际运用只是想想这棵树能做的事情就有很多，比如，它的限制很少，最大程度地保留了可能性，Fiat Project 就是用 SwiftUI 实现的，甚至一部分 Objective-C+UIKit，一部分 Swift+SwiftUI；比如，Presenter 的生命周期灵活多样，用来做 Cache 非常合适！消除单例也不难；再比如，它允许分层处理 Networking 数据。还有我想到但没想明白的：DeepLink，埋点。
