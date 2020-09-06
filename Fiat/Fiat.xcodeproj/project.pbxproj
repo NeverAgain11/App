@@ -9,14 +9,30 @@
 /* Begin PBXBuildFile section */
 		52A02FF924F7BF0A00F282A0 /* FiatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02FF824F7BF0A00F282A0 /* FiatView.swift */; };
 		52A02FFB24F7BF1C00F282A0 /* FiatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A02FFA24F7BF1C00F282A0 /* FiatPresenter.swift */; };
-		5AD7B00124FD4AB800A4D6B3 /* UIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */; };
+		5ACD9BDA250544BB00F75AD9 /* UIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACD9BD9250544BB00F75AD9 /* UIExtension.framework */; };
+		5ACD9BDB250544BB00F75AD9 /* UIExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACD9BD9250544BB00F75AD9 /* UIExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5ACD9BDC250544BB00F75AD9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5ACD9BDB250544BB00F75AD9 /* UIExtension.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		52A02FED24F7BEE700F282A0 /* Fiat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fiat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A02FF124F7BEE700F282A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A02FF824F7BF0A00F282A0 /* FiatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatView.swift; sourceTree = "<group>"; };
 		52A02FFA24F7BF1C00F282A0 /* FiatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatPresenter.swift; sourceTree = "<group>"; };
+		5ACD9BD9250544BB00F75AD9 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD7B00124FD4AB800A4D6B3 /* UIExtension.framework in Frameworks */,
+				5ACD9BDA250544BB00F75AD9 /* UIExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,7 @@
 		5AD7AFFF24FD4AB800A4D6B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5ACD9BD9250544BB00F75AD9 /* UIExtension.framework */,
 				5AD7B00024FD4AB800A4D6B3 /* UIExtension.framework */,
 			);
 			name = Frameworks;
@@ -88,6 +105,7 @@
 				52A02FE924F7BEE700F282A0 /* Sources */,
 				52A02FEA24F7BEE700F282A0 /* Frameworks */,
 				52A02FEB24F7BEE700F282A0 /* Resources */,
+				5ACD9BDC250544BB00F75AD9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
